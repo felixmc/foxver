@@ -1,0 +1,28 @@
+{
+  "name": "foxver",
+  "version": "1.0.0",
+  "description": "fox bytes mobile application backend framework",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/app src/lib src/bin || echo",
+    "lint:watch": "esw src/app src/lib src/bin",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/felixmc/foxver.git"
+  },
+  "author": "Felix Milea-Ciobanu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felixmc/foxver/issues"
+  },
+  "homepage": "https://github.com/felixmc/foxver#readme",
+  "devDependencies": {
+    "eslint": "^3.7.0",
+    "eslint-config-standard": "^6.2.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "eslint-watch": "^2.1.14"
+  }
+}

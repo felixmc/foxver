@@ -1,0 +1,25 @@
+{
+  "extends": [ "standard" ],
+  "plugins": [
+    "promise",
+  ],
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "comma-dangle": [2, "always-multiline"],
+    "no-var": [2],
+
+    "no-warning-comments": 1,
+
+    "no-alert": [1],
+    "no-console": [1],
+    "no-debugger": [1]
+  },
+  "globals": {
+    "App": true,
+    "Models": true,
+    "Services": true,
+    "Log": true
+  }
+}
