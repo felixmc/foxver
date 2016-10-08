@@ -1,7 +1,7 @@
-export default function initServer (appDir) {
+module.exports = function initServer (appDir) {
   console.log('Initializing server..') // eslint-disable-line no-console
 
-  const Foxver = require('../lib')
+  const Foxver = require('./lib')
   const app = new Foxver(appDir)
 
   app.init()
