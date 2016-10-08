@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "assign-deep": "^0.4.5",
+    "babel-eslint": "^7.0.0",
     "body-parser": "^1.15.2",
     "bunyan": "^1.8.1",
     "colors": "^1.1.2",
